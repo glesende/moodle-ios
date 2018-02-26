@@ -37515,16 +37515,22 @@ angular.module('mm.core')
 .constant('mmCoreConfigConstants', {
 
 
-     "app_id" : "co.uk.pathwaydirect.www",
-    "versioncode" : "2014",
-    "versionname" : "3.1.2",
+    "app_id" : "com.moodle.edb",
+    "appname": "Escuela de Belleza",
+    "desktopappname": "Escuela de Belleza",
+    "versioncode" : "1114",
+    "versionname" : "1.1.0",
     "cache_expiration_time" : 300000,
-    "default_lang" : "en",
-    "languages": {"ar": "????", "bg": "?????????", "ca": "Catal�", "cs": "Ce�tina", "da": "Dansk", "de": "Deutsch","en": "English", "es": "Espa�ol", "es-mx": "Espa�ol - M�xico", "eu": "Euskara", "fa": "?????", "fr" : "Fran�ais", "he" : "?????", "hu": "magyar", "it": "Italiano", "ja": "???","nl": "Nederlands", "pl": "Polski", "pt-br": "Portugu�s - Brasil", "pt": "Portugu�s - Portugal", "ro": "Rom�na", "ru": "???????", "sv": "Svenska", "tr" : "T�rk�e", "zh-cn" : "????", "zh-tw" : "????"},
+    "default_lang" : "es",
+    "languages": {"ar": "عربي", "bg": "Български", "ca": "Català", "cs": "Čeština", "da": "Dansk", "de": "Deutsch", "de-du": "Deutsch - Du", "el": "Ελληνικά", "en": "English", "es": "Español", "es-mx": "Español - México", "eu": "Euskara", "fa": "فارسی", "fr" : "Français", "he" : "עברית", "hu": "magyar", "it": "Italiano", "lt" : "Lietuvių", "ja": "日本語","nl": "Nederlands", "pl": "Polski", "pt-br": "Português - Brasil", "pt": "Português - Portugal", "ro": "Română", "ru": "Русский", "sr-cr": "Српски", "sr-lt": "Srpski", "sv": "Svenska", "tr" : "Türkçe", "uk" : "Українська", "zh-cn" : "简体中文", "zh-tw" : "正體中文"},
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
-    "siteurl": "http://www.pathwaydirect.co.uk/",
     "gcmpn": "694767596569",
+    "customurlscheme": "moodlemobile",
+    "siteurl": "http://campus.escueladebelleza.com/",
+    "skipssoconfirmation": "false",
+    "forcedefaultlanguage": "false",
+    "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
 
 }
 );
